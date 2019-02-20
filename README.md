@@ -32,4 +32,10 @@ apex = ApexLegends("apex_api_key")
 player = apex.player('NRG_dizzy')
 
 print(player)
+
+for legend in player.legends:
+    print(legend.legend_name)
+    print(legend.icon)
+    print(legend.damage)
 ```
+
