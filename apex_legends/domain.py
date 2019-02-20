@@ -53,6 +53,9 @@ class Player(Domain):
         for stat in self._stats:
             setattr(self, stat['metadata']['key'].lower(),
                 stat['displayValue'])
+        self.legends = []
+        for legend in self._data.get('children'):
+            self.legends.append(Legend(legend))
 
     def __str__(self):
         general_stats = {'level': 'Level',
@@ -65,3 +68,16 @@ class Player(Domain):
                  getattr(self, stat))
 
         return stats
+
+
+class Legend(Domain):
+
+    def from_json(self):
+        super().from_json()
+        self._stats = self._data.get('stats')
+        self.legend_name = self._data['metadata'].get('legend_name')
+        self.icon = self._data['metadata'].get('icon')
+        self.bgimage = self._data['metadata'].get('bgimage')
+        for stat in self._stats:
+            setattr(self, stat['metadata']['key'].lower(),
+                stat['displayValue'])
