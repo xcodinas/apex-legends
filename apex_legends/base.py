@@ -38,7 +38,7 @@ class Client:
     def request(self, endpoint):
         response = self.session.get(self.BASE_URL + endpoint)
         if response.status_code != self.API_OK:
-            exception = self.API_ERRORS_MAPPING.get(response.status_code,
-                Exception)
+            exception = self.API_ERRORS_MAPPING.get(
+                response.status_code, Exception)
             raise exception
         return json.loads(response.text)

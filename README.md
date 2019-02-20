@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/apex-legends.svg)](https://badge.fury.io/py/apex-legends)
+
 # apex-legends
 Python wrapper for https://apex.tracker.gg/ api.
 
@@ -7,6 +9,12 @@ You can install it via setup.py
 
 ```
 python setup.py install
+```
+
+or from pip:
+
+```
+pip install apex-legends
 ```
 
 
