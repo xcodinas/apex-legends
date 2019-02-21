@@ -1,7 +1,8 @@
 import json
 import furl
 import requests
-from .exceptions import UnauthorizedError, NotFoundError, UnknownPlayerError
+from .exceptions import (UnauthorizedError, NotFoundError, UnknownPlayerError,
+    ServerError)
 from .domain import Platform, Player
 
 
@@ -33,6 +34,7 @@ class Client:
         400: NotFoundError,
         403: UnauthorizedError,
         404: UnknownPlayerError,
+        500: ServerError,
     }
 
     def request(self, endpoint):

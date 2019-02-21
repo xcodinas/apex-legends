@@ -14,3 +14,9 @@ class UnknownPlayerError(BaseException):
 
     def __init__(self, message='The specified player was not found'):
         super().__init__()
+
+
+class ServerError(BaseException):
+
+    def __init__(self, message='There is an error with the server.'):
+        super().__init__()
