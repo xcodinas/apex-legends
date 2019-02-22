@@ -59,7 +59,7 @@ class Player(Domain):
 
     def __str__(self):
         general_stats = {'level': 'Level',
-           'kills': 'Headshots',
+           'kills': 'Total kills',
            'damage': 'Damage'}
         stats = ''
         for stat in general_stats:
