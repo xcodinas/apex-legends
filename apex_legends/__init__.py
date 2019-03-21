@@ -1,5 +1,6 @@
-from .base import ApexLegends
+from .base import ApexLegends, AsyncLegends
 
 __all__ = [
-     'ApexLegends'
+     'ApexLegends',
+     'AsyncLegends'
 ]

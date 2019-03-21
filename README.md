@@ -39,3 +39,33 @@ for legend in player.legends:
     print(legend.damage)
 ```
 
+## Asynchronous Calls
+
+For those who wish to use this API wrapper for their asynchronous applications, you may do so by calling the `AsyncLegends` class.
+
+**WARNING**: This portion of the wrapper is for use with Python version 3.5+. [PEP 492](https://www.python.org/dev/peps/pep-0492/) released the keywords `async` and `await`,  as well as the magic methods `__aenter__` and `__aexit__`, which this portion of the wrapper takes advantage of. This results in the asynchronous class not being compatible with Python versions 3.4 and lower.
+
+```py
+import asyncio
+
+from apex_legends import AsyncLegends
+from apex_legends.domain import Platform
+
+my_api_key = 'https://apex.tracker.gg api key here'
+
+
+async def main(api_key, player_name, platform=None):
+    async with AsyncLegends(api_key) as apex:
+        player = await apex.player(player_name, platform=platform if platform else Platform.PC)
+    return player
+
+loop = asyncio.get_event_loop()
+result = loop.run_until_complete(main(my_api_key, player_name='NRG_dizzy'))
+
+print(result)
+
+for legend in result.legends:
+    print(legend.legend_name)
+    print(legend.icon)
+    print(getattr(legend, 'damage', 'Damage not found.'))
+```

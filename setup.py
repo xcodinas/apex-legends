@@ -3,6 +3,9 @@ from setuptools import find_packages, setup
 with open('README.md') as f:
     long_description = f.read()
 
+with open('requirements.txt') as f:
+    requirements = f.readlines()
+
 setup(
     name='apex-legends',
     version='0.1.2',
@@ -14,10 +17,7 @@ setup(
     author_email='xavier19966@gmail.com',
     license='MIT',
     packages=find_packages(exclude=('tests*',)),
-    install_requires=[
-        'requests>=2.18.4',
-        'furl>=1.0.1',
-    ],
+    install_requires=requirements,
     extras_require={
         ":python_version<='3.4'": ['enum34>=1.1.6'],
     },
