@@ -80,4 +80,4 @@ class Legend(Domain):
         self.bgimage = self._data['metadata'].get('bgimage')
         for stat in self._stats:
             setattr(self, stat['metadata']['key'].lower(),
-                stat['displayValue'])
+                    stat['displayValue'])

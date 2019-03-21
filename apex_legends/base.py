@@ -5,7 +5,7 @@ import requests
 import aiohttp
 
 from .exceptions import (UnauthorizedError, NotFoundError, UnknownPlayerError,
-    ServerError)
+                         ServerError)
 from .domain import Platform, Player
 
 
@@ -21,23 +21,25 @@ class ApexLegends:
             return Player(data)
         raise UnknownPlayerError
 
+
 class AsyncLegends:
-  
-  def __init__(self, api_key):
-    self.client = AsyncClient(api_key)
 
-  async def __aenter__(self):
-    return self
-  
-  async def __aexit__(self, *a):
-    pass
+    def __init__(self, api_key):
+        self.client = AsyncClient(api_key)
 
-  async def player(self, player=None, platform=Platform.PC):
-    endpoint = 'profile/%s/%s' % (platform.value, player)
-    data = await self.client.request(endpoint)
-    if data.get('data') and 'id' in data.get('data'):
-      return Player(data)
-    raise UnknownPlayerError
+    async def __aenter__(self):
+        return self
+
+    async def __aexit__(self, *a):
+        pass
+
+    async def player(self, player=None, platform=Platform.PC):
+        endpoint = 'profile/%s/%s' % (platform.value, player)
+        data = await self.client.request(endpoint)
+        if data.get('data') and 'id' in data.get('data'):
+            return Player(data)
+        raise UnknownPlayerError
+
 
 class Client:
     BASE_URL = 'https://public-api.tracker.gg/apex/v1/standard/'
@@ -45,7 +47,7 @@ class Client:
     def __init__(self, api_key):
         self.session = requests.Session()
         self.session.headers.update({'TRN-Api-Key': api_key,
-           'Accept': 'application/vnd.api+json'})
+                                     'Accept': 'application/vnd.api+json'})
         self.url = furl.furl(self.BASE_URL)
 
     API_OK = 200
@@ -66,33 +68,23 @@ class Client:
         return json.loads(response.text)
 
 
-class AsyncClient:
-  BASE_URL = 'https://public-api.tracker.gg/apex/v1/standard/'
+class AsyncClient(Client):
 
-  def __init__(self, api_key):
-    headers = {'TRN-Api-Key': api_key, 'Accept': 'application/vnd.api+json'}
-    self._session = aiohttp.ClientSession(headers=headers)
+    def __init__(self, api_key):
+        self.headers = {'TRN-Api-Key': api_key, 'Accept': 'application/vnd.api+json'}
+        self._session = aiohttp.ClientSession(headers=self.headers)
 
-  API_OK = 200
-  API_ERRORS_MAPPING = {
-      401: UnauthorizedError,
-      400: NotFoundError,
-      403: UnauthorizedError,
-      404: UnknownPlayerError,
-      500: ServerError,
-  }
+    async def __aenter__(self):
+        if not self._session:
+            self._session = aiohttp.ClientSession(headers=self.headers)
 
-  async def __aenter__(self):
-    if not self._session:
-      self._session = aiohttp.ClientSession(headers=headers)
-    
-  async def __aexit__(self):
-    await self._session.close()
+    async def __aexit__(self, *a):
+        await self._session.close()
 
-  async def request(self, endpoint):
-    async with self._session.get(self.BASE_URL + endpoint) as response:
-      if not response.status == self.API_OK:
-        exception = self.API_ERRORS_MAPPING.get(response.status, Exception)
-        raise exception
-      await self._session.close()
-      return await response.json()
+    async def request(self, endpoint):
+        async with self._session.get(self.BASE_URL + endpoint) as response:
+            if not response.status == self.API_OK:
+                exception = self.API_ERRORS_MAPPING.get(response.status, Exception)
+                raise exception
+            await self._session.close()
+            return await response.json()
