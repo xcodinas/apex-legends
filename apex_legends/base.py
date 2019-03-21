@@ -5,7 +5,7 @@ import requests
 import aiohttp
 
 from .exceptions import (UnauthorizedError, NotFoundError, UnknownPlayerError,
-                         ServerError)
+    ServerError)
 from .domain import Platform, Player
 
 
@@ -71,7 +71,8 @@ class Client:
 class AsyncClient(Client):
 
     def __init__(self, api_key):
-        self.headers = {'TRN-Api-Key': api_key, 'Accept': 'application/vnd.api+json'}
+        self.headers = {'TRN-Api-Key': api_key,
+            'Accept': 'application/vnd.api+json'}
         self._session = aiohttp.ClientSession(headers=self.headers)
 
     async def __aenter__(self):
@@ -84,7 +85,8 @@ class AsyncClient(Client):
     async def request(self, endpoint):
         async with self._session.get(self.BASE_URL + endpoint) as response:
             if not response.status == self.API_OK:
-                exception = self.API_ERRORS_MAPPING.get(response.status, Exception)
+                exception = self.API_ERRORS_MAPPING.get(response.status,
+                    Exception)
                 raise exception
             await self._session.close()
             return await response.json()
