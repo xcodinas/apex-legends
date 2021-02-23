@@ -3,9 +3,9 @@ from enum import Enum
 
 
 class Platform(Enum):
-    XBOX = 1
-    PSN = 2
-    PC = 5
+    XBOX = "xbl"
+    PSN = "psn"
+    PC = "origin"
 
 
 class Domain:
@@ -45,17 +45,17 @@ class Player(Domain):
 
     def from_json(self):
         super().from_json()
-        self.type = self._data.get('type')
-        self.username = self._data['metadata'].get('platformUserHandle')
-        self.platform = self._data['metadata'].get('platformId')
-        self._cache_date = self._data['metadata'].get('cacheExpireDate')
-        self._stats = self._data.get('stats')
-        for stat in self._stats:
-            setattr(self, stat['metadata']['key'].lower(),
-                stat['displayValue'])
+        self.username = self._data['platformInfo'].get('platformUserHandle')
+        self.platform = self._data['platformInfo'].get('platformSlug')
+        assert self._data['segments'][0].get('type') == 'overview'
+        self._stats = self._data['segments'][0]['stats']
+        for stat, value in self._stats.items():
+            setattr(self, stat.lower(),
+                value['value'])
         self.legends = []
-        for legend in self._data.get('children'):
-            self.legends.append(Legend(legend))
+        for segment in self._data.get('segments'):
+            if segment['type'] == 'legend':
+                self.legends.append(Legend(segment))
 
     def __str__(self):
         general_stats = {'level': 'Level',
@@ -75,9 +75,9 @@ class Legend(Domain):
     def from_json(self):
         super().from_json()
         self._stats = self._data.get('stats')
-        self.legend_name = self._data['metadata'].get('legend_name')
-        self.icon = self._data['metadata'].get('icon')
-        self.bgimage = self._data['metadata'].get('bgimage')
-        for stat in self._stats:
-            setattr(self, stat['metadata']['key'].lower(),
-                    stat['displayValue'])
+        self.legend_name = self._data['metadata'].get('name')
+        self.icon = self._data['metadata'].get('imageUrl')
+        self.bgimage = self._data['metadata'].get('bgImageUrl')
+        for stat, value in self._stats.items():
+            setattr(self, stat.lower(),
+                    value['value'])

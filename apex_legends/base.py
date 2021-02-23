@@ -17,7 +17,7 @@ class ApexLegends:
     def player(self, player=None, platform=Platform.PC):
         endpoint = 'profile/%s/%s' % (platform.value, player)
         data = self.client.request(endpoint)
-        if data.get('data') and 'id' in data.get('data'):
+        if data.get('data') and 'userInfo' in data.get('data'):
             return Player(data)
         raise UnknownPlayerError
 
@@ -42,7 +42,7 @@ class AsyncLegends:
 
 
 class Client:
-    BASE_URL = 'https://public-api.tracker.gg/apex/v1/standard/'
+    BASE_URL = 'https://public-api.tracker.gg/v2/apex/standard/'
 
     def __init__(self, api_key):
         self.session = requests.Session()
