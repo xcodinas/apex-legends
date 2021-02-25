@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='apex-legends',
-    version='0.1.5',
+    version='0.1.6',
     description='Python wrapper for https://apex.tracker.gg/ api.',
     long_description=long_description,
     long_description_content_type='text/markdown',
