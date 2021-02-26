@@ -17,8 +17,14 @@ class ApexLegends:
     def player(self, player=None, platform=Platform.PC):
         endpoint = 'profile/%s/%s' % (platform.value, player)
         data = self.client.request(endpoint)
+
+        ## Load the game session data
+        games_endpoint = endpoint + '/sessions'
+        sessions = self.client.request(games_endpoint)
         if data.get('data') and 'userInfo' in data.get('data'):
-            return Player(data)
+            player = Player(data)
+            player.set_sessions(session_data=sessions.get('data'))
+            return player
         raise UnknownPlayerError
 
 

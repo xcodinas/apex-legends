@@ -15,3 +15,4 @@ def test_player():
     assert float(player.killspermatch) == round(int(player.kills) / int(player.matchesplayed), 2)
     assert int(player.damage) >= 12638
     assert player.damagepermatch == round(player.damage / player.matchesplayed, 2)
+    assert len(player.sessions) > 1
