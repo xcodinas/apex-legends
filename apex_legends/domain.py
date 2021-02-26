@@ -96,4 +96,3 @@ class Session(Domain):
         for stat, value in self._stats.items():
             setattr(self, stat.lower(),
                     value['value'])
-
