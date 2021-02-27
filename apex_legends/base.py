@@ -14,8 +14,8 @@ class ApexLegends:
     def __init__(self, api_key):
         self.client = Client(api_key)
 
-    def player(self, player=None, platform=Platform.PC):
-        endpoint = 'profile/%s/%s' % (platform.value, player)
+    def player(self, player_name=None, platform=Platform.PC):
+        endpoint = 'profile/%s/%s' % (platform.value, player_name)
         data = self.client.request(endpoint)
 
         ## Load the game session data
