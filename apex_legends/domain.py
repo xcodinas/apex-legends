@@ -57,6 +57,11 @@ class Player(Domain):
             if segment['type'] == 'legend':
                 self.legends.append(Legend(segment))
 
+    def set_sessions(self, session_data):
+        self.sessions = []
+        for data in session_data['items']:
+            self.sessions.append(Session(data))
+
     def __str__(self):
         general_stats = {'level': 'Level',
            'kills': 'Total kills',
@@ -78,6 +83,16 @@ class Legend(Domain):
         self.legend_name = self._data['metadata'].get('name')
         self.icon = self._data['metadata'].get('imageUrl')
         self.bgimage = self._data['metadata'].get('bgImageUrl')
+        for stat, value in self._stats.items():
+            setattr(self, stat.lower(),
+                    value['value'])
+
+
+class Session(Domain):
+
+    def from_json(self):
+        super().from_json()
+        self._stats = self._data.get('stats')
         for stat, value in self._stats.items():
             setattr(self, stat.lower(),
                     value['value'])
