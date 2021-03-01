@@ -18,7 +18,7 @@ class ApexLegends:
         endpoint = 'profile/%s/%s' % (platform.value, player_name)
         data = self.client.request(endpoint)
 
-        ## Load the game session data
+        # Load the game session data
         games_endpoint = endpoint + '/sessions'
         sessions = self.client.request(games_endpoint)
         if data.get('data') and 'userInfo' in data.get('data'):

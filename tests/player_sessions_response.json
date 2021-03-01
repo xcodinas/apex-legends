@@ -1,0 +1,1267 @@
+{
+    "data": {
+        "expiryDate": "2021-03-01T16:13:22.1470919+00:00",
+        "items": [
+            {
+                "metadata": {
+                    "startDate": {
+                        "value": "2021-03-01T00:55:28.632736Z",
+                        "displayValue": "2021-03-01T00:55:28.6327360Z"
+                    },
+                    "endDate": {
+                        "value": "2021-03-01T01:40:35.321412Z",
+                        "displayValue": "2021-03-01T01:40:35.3214120Z"
+                    },
+                    "duration": {
+                        "value": "00:45:06.6886760",
+                        "displayValue": "00:45:06.6886760"
+                    },
+                    "isActive": {
+                        "value": false,
+                        "displayValue": "False"
+                    }
+                },
+                "matches": [
+                    {
+                        "id": "3a8f1e82-c284-43e9-925c-10b487303d51",
+                        "metadata": {
+                            "result": {
+                                "value": "unknown",
+                                "displayValue": "Unknown"
+                            },
+                            "endDate": {
+                                "value": "2021-03-01T01:40:35.321412Z",
+                                "displayValue": "2021-03-01T01:40:35.3214120Z"
+                            },
+                            "character": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterIconUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterStats": {
+                                "value": [],
+                                "displayValue": ""
+                            },
+                            "legend": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendBigImageUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendStats": {
+                                "value": [],
+                                "displayValue": ""
+                            }
+                        },
+                        "stats": {
+                            "level": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Level",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 33,
+                                "displayValue": "33",
+                                "displayType": "Number"
+                            },
+                            "kills": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 3,
+                                "displayValue": "3",
+                                "displayType": "Number"
+                            },
+                            "killsPerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 3,
+                                "displayValue": "3.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damagePerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 536,
+                                "displayValue": "536.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damage": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 536,
+                                "displayValue": "536",
+                                "displayType": "Number"
+                            },
+                            "matchesPlayed": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Matches Played",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1",
+                                "displayType": "Number"
+                            },
+                            "rankScore": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {
+                                    "rankScoreInfo": {
+                                        "name": "Bronze 4",
+                                        "image": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/bronze4.png"
+                                    }
+                                },
+                                "value": 210,
+                                "displayValue": "210",
+                                "displayType": "Number"
+                            },
+                            "rankScoreChange": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score Change",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            }
+                        }
+                    },
+                    {
+                        "id": "e75f2339-b546-4e44-ba1e-e5f1159e865c",
+                        "metadata": {
+                            "result": {
+                                "value": "unknown",
+                                "displayValue": "Unknown"
+                            },
+                            "endDate": {
+                                "value": "2021-03-01T01:20:33.870304Z",
+                                "displayValue": "2021-03-01T01:20:33.8703040Z"
+                            },
+                            "character": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterIconUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterStats": {
+                                "value": [],
+                                "displayValue": ""
+                            },
+                            "legend": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendBigImageUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendStats": {
+                                "value": [],
+                                "displayValue": ""
+                            }
+                        },
+                        "stats": {
+                            "level": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Level",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 32,
+                                "displayValue": "32",
+                                "displayType": "Number"
+                            },
+                            "kills": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            },
+                            "killsPerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damagePerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 58,
+                                "displayValue": "58.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damage": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 58,
+                                "displayValue": "58",
+                                "displayType": "Number"
+                            },
+                            "matchesPlayed": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Matches Played",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1",
+                                "displayType": "Number"
+                            },
+                            "rankScore": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {
+                                    "rankScoreInfo": {
+                                        "name": "Bronze 4",
+                                        "image": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/bronze4.png"
+                                    }
+                                },
+                                "value": 210,
+                                "displayValue": "210",
+                                "displayType": "Number"
+                            },
+                            "rankScoreChange": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score Change",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            }
+                        }
+                    },
+                    {
+                        "id": "bbfa772b-99a8-4a7d-b16c-4805e147d407",
+                        "metadata": {
+                            "result": {
+                                "value": "unknown",
+                                "displayValue": "Unknown"
+                            },
+                            "endDate": {
+                                "value": "2021-03-01T01:05:28.632736Z",
+                                "displayValue": "2021-03-01T01:05:28.6327360Z"
+                            },
+                            "character": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterIconUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterStats": {
+                                "value": [],
+                                "displayValue": ""
+                            },
+                            "legend": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendBigImageUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendStats": {
+                                "value": [],
+                                "displayValue": ""
+                            }
+                        },
+                        "stats": {
+                            "level": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Level",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 32,
+                                "displayValue": "32",
+                                "displayType": "Number"
+                            },
+                            "kills": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            },
+                            "killsPerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damagePerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 38,
+                                "displayValue": "38.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damage": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 38,
+                                "displayValue": "38",
+                                "displayType": "Number"
+                            },
+                            "matchesPlayed": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Matches Played",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1",
+                                "displayType": "Number"
+                            },
+                            "rankScore": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {
+                                    "rankScoreInfo": {
+                                        "name": "Bronze 4",
+                                        "image": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/bronze4.png"
+                                    }
+                                },
+                                "value": 210,
+                                "displayValue": "210",
+                                "displayType": "Number"
+                            },
+                            "rankScoreChange": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score Change",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            }
+                        }
+                    }
+                ],
+                "stats": {
+                    "kills": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Kills",
+                        "displayCategory": "Combat",
+                        "category": "combat",
+                        "metadata": {},
+                        "value": 3,
+                        "displayValue": "3",
+                        "displayType": "Number"
+                    },
+                    "killsPerMatch": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Kills Per Match",
+                        "displayCategory": "Combat",
+                        "category": "combat",
+                        "metadata": {},
+                        "value": 3,
+                        "displayValue": "3.00",
+                        "displayType": "NumberPrecision2"
+                    },
+                    "damagePerMatch": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Damage Per Match",
+                        "displayCategory": "Combat",
+                        "category": "combat",
+                        "metadata": {},
+                        "value": 632,
+                        "displayValue": "632.00",
+                        "displayType": "NumberPrecision2"
+                    },
+                    "damage": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Damage",
+                        "displayCategory": "Combat",
+                        "category": "combat",
+                        "metadata": {},
+                        "value": 632,
+                        "displayValue": "632",
+                        "displayType": "Number"
+                    },
+                    "matchesPlayed": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Matches Played",
+                        "displayCategory": "Game",
+                        "category": "game",
+                        "metadata": {},
+                        "value": 3,
+                        "displayValue": "3",
+                        "displayType": "Number"
+                    },
+                    "rankScore": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Rank Score",
+                        "displayCategory": "Game",
+                        "category": "game",
+                        "metadata": {},
+                        "value": 630,
+                        "displayValue": "630",
+                        "displayType": "Number"
+                    },
+                    "rankScoreChange": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Rank Score Change",
+                        "displayCategory": "Game",
+                        "category": "game",
+                        "metadata": {},
+                        "value": 0,
+                        "displayValue": "0",
+                        "displayType": "Number"
+                    }
+                },
+                "playlists": []
+            },
+            {
+                "metadata": {
+                    "startDate": {
+                        "value": "2021-02-28T03:41:11.496317Z",
+                        "displayValue": "2021-02-28T03:41:11.4963170Z"
+                    },
+                    "endDate": {
+                        "value": "2021-02-28T04:41:15.805456Z",
+                        "displayValue": "2021-02-28T04:41:15.8054560Z"
+                    },
+                    "duration": {
+                        "value": "01:00:04.3091390",
+                        "displayValue": "01:00:04.3091390"
+                    },
+                    "isActive": {
+                        "value": false,
+                        "displayValue": "False"
+                    }
+                },
+                "matches": [
+                    {
+                        "id": "106c77d8-0a8e-4a59-81c2-e677f48e941a",
+                        "metadata": {
+                            "result": {
+                                "value": "unknown",
+                                "displayValue": "Unknown"
+                            },
+                            "endDate": {
+                                "value": "2021-02-28T04:41:15.805456Z",
+                                "displayValue": "2021-02-28T04:41:15.8054560Z"
+                            },
+                            "character": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterIconUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterStats": {
+                                "value": [],
+                                "displayValue": ""
+                            },
+                            "legend": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendBigImageUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendStats": {
+                                "value": [],
+                                "displayValue": ""
+                            }
+                        },
+                        "stats": {
+                            "level": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Level",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 32,
+                                "displayValue": "32",
+                                "displayType": "Number"
+                            },
+                            "kills": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            },
+                            "killsPerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damagePerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 200,
+                                "displayValue": "200.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damage": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 200,
+                                "displayValue": "200",
+                                "displayType": "Number"
+                            },
+                            "matchesPlayed": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Matches Played",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1",
+                                "displayType": "Number"
+                            },
+                            "rankScore": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {
+                                    "rankScoreInfo": {
+                                        "name": "Bronze 4",
+                                        "image": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/bronze4.png"
+                                    }
+                                },
+                                "value": 210,
+                                "displayValue": "210",
+                                "displayType": "Number"
+                            },
+                            "rankScoreChange": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score Change",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            }
+                        }
+                    },
+                    {
+                        "id": "28e9b6bc-824a-4f6b-b0af-21a747662e40",
+                        "metadata": {
+                            "result": {
+                                "value": "unknown",
+                                "displayValue": "Unknown"
+                            },
+                            "endDate": {
+                                "value": "2021-02-28T04:36:12.559154Z",
+                                "displayValue": "2021-02-28T04:36:12.5591540Z"
+                            },
+                            "character": {
+                                "value": 6,
+                                "displayValue": "Gibraltar"
+                            },
+                            "characterIconUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-tile.png",
+                                "displayValue": "Gibraltar"
+                            },
+                            "characterStats": {
+                                "value": [],
+                                "displayValue": ""
+                            },
+                            "legend": {
+                                "value": 6,
+                                "displayValue": "Gibraltar"
+                            },
+                            "legendBigImageUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-tile.png",
+                                "displayValue": "Gibraltar"
+                            },
+                            "legendStats": {
+                                "value": [],
+                                "displayValue": ""
+                            }
+                        },
+                        "stats": {
+                            "level": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Level",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 32,
+                                "displayValue": "32",
+                                "displayType": "Number"
+                            },
+                            "kills": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            },
+                            "killsPerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damagePerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 209,
+                                "displayValue": "209.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damage": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 209,
+                                "displayValue": "209",
+                                "displayType": "Number"
+                            },
+                            "matchesPlayed": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Matches Played",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1",
+                                "displayType": "Number"
+                            },
+                            "rankScore": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {
+                                    "rankScoreInfo": {
+                                        "name": "Bronze 4",
+                                        "image": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/bronze4.png"
+                                    }
+                                },
+                                "value": 210,
+                                "displayValue": "210",
+                                "displayType": "Number"
+                            },
+                            "rankScoreChange": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score Change",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            }
+                        }
+                    },
+                    {
+                        "id": "a441a156-135e-4791-b5ff-5552c22036ed",
+                        "metadata": {
+                            "result": {
+                                "value": "unknown",
+                                "displayValue": "Unknown"
+                            },
+                            "endDate": {
+                                "value": "2021-02-28T04:16:08.509307Z",
+                                "displayValue": "2021-02-28T04:16:08.5093070Z"
+                            },
+                            "character": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterIconUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterStats": {
+                                "value": [],
+                                "displayValue": ""
+                            },
+                            "legend": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendBigImageUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendStats": {
+                                "value": [],
+                                "displayValue": ""
+                            }
+                        },
+                        "stats": {
+                            "level": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Level",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 32,
+                                "displayValue": "32",
+                                "displayType": "Number"
+                            },
+                            "kills": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            },
+                            "killsPerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damagePerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 146,
+                                "displayValue": "146.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damage": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 146,
+                                "displayValue": "146",
+                                "displayType": "Number"
+                            },
+                            "matchesPlayed": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Matches Played",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1",
+                                "displayType": "Number"
+                            },
+                            "rankScore": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {
+                                    "rankScoreInfo": {
+                                        "name": "Bronze 4",
+                                        "image": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/bronze4.png"
+                                    }
+                                },
+                                "value": 210,
+                                "displayValue": "210",
+                                "displayType": "Number"
+                            },
+                            "rankScoreChange": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score Change",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            }
+                        }
+                    },
+                    {
+                        "id": "cfe960ce-e07c-4f4f-9e1a-df0d89990391",
+                        "metadata": {
+                            "result": {
+                                "value": "unknown",
+                                "displayValue": "Unknown"
+                            },
+                            "endDate": {
+                                "value": "2021-02-28T04:06:11.338671Z",
+                                "displayValue": "2021-02-28T04:06:11.3386710Z"
+                            },
+                            "character": {
+                                "value": 6,
+                                "displayValue": "Gibraltar"
+                            },
+                            "characterIconUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-tile.png",
+                                "displayValue": "Gibraltar"
+                            },
+                            "characterStats": {
+                                "value": [],
+                                "displayValue": ""
+                            },
+                            "legend": {
+                                "value": 6,
+                                "displayValue": "Gibraltar"
+                            },
+                            "legendBigImageUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-tile.png",
+                                "displayValue": "Gibraltar"
+                            },
+                            "legendStats": {
+                                "value": [],
+                                "displayValue": ""
+                            }
+                        },
+                        "stats": {
+                            "level": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Level",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 32,
+                                "displayValue": "32",
+                                "displayType": "Number"
+                            },
+                            "kills": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1",
+                                "displayType": "Number"
+                            },
+                            "killsPerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 0.5,
+                                "displayValue": "0.50",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damagePerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 211,
+                                "displayValue": "211.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damage": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 422,
+                                "displayValue": "422",
+                                "displayType": "Number"
+                            },
+                            "matchesPlayed": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Matches Played",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 2,
+                                "displayValue": "2",
+                                "displayType": "Number"
+                            },
+                            "rankScore": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {
+                                    "rankScoreInfo": {
+                                        "name": "Bronze 4",
+                                        "image": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/bronze4.png"
+                                    }
+                                },
+                                "value": 210,
+                                "displayValue": "210",
+                                "displayType": "Number"
+                            },
+                            "rankScoreChange": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score Change",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            }
+                        }
+                    },
+                    {
+                        "id": "02db920c-c63c-4833-a406-67da1627a345",
+                        "metadata": {
+                            "result": {
+                                "value": "unknown",
+                                "displayValue": "Unknown"
+                            },
+                            "endDate": {
+                                "value": "2021-02-28T03:51:11.496317Z",
+                                "displayValue": "2021-02-28T03:51:11.4963170Z"
+                            },
+                            "character": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterIconUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "characterStats": {
+                                "value": [],
+                                "displayValue": ""
+                            },
+                            "legend": {
+                                "value": 5,
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendBigImageUrl": {
+                                "value": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                                "displayValue": "Bloodhound"
+                            },
+                            "legendStats": {
+                                "value": [],
+                                "displayValue": ""
+                            }
+                        },
+                        "stats": {
+                            "level": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Level",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 32,
+                                "displayValue": "32",
+                                "displayType": "Number"
+                            },
+                            "kills": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1",
+                                "displayType": "Number"
+                            },
+                            "killsPerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Kills Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damagePerMatch": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage Per Match",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 192,
+                                "displayValue": "192.00",
+                                "displayType": "NumberPrecision2"
+                            },
+                            "damage": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Damage",
+                                "displayCategory": "Combat",
+                                "category": "combat",
+                                "metadata": {},
+                                "value": 192,
+                                "displayValue": "192",
+                                "displayType": "Number"
+                            },
+                            "matchesPlayed": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Matches Played",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 1,
+                                "displayValue": "1",
+                                "displayType": "Number"
+                            },
+                            "rankScore": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {
+                                    "rankScoreInfo": {
+                                        "name": "Bronze 4",
+                                        "image": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/bronze4.png"
+                                    }
+                                },
+                                "value": 210,
+                                "displayValue": "210",
+                                "displayType": "Number"
+                            },
+                            "rankScoreChange": {
+                                "rank": null,
+                                "percentile": null,
+                                "displayName": "Rank Score Change",
+                                "displayCategory": "Game",
+                                "category": "game",
+                                "metadata": {},
+                                "value": 0,
+                                "displayValue": "0",
+                                "displayType": "Number"
+                            }
+                        }
+                    }
+                ],
+                "stats": {
+                    "kills": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Kills",
+                        "displayCategory": "Combat",
+                        "category": "combat",
+                        "metadata": {},
+                        "value": 2,
+                        "displayValue": "2",
+                        "displayType": "Number"
+                    },
+                    "killsPerMatch": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Kills Per Match",
+                        "displayCategory": "Combat",
+                        "category": "combat",
+                        "metadata": {},
+                        "value": 1.5,
+                        "displayValue": "1.50",
+                        "displayType": "NumberPrecision2"
+                    },
+                    "damagePerMatch": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Damage Per Match",
+                        "displayCategory": "Combat",
+                        "category": "combat",
+                        "metadata": {},
+                        "value": 958,
+                        "displayValue": "958.00",
+                        "displayType": "NumberPrecision2"
+                    },
+                    "damage": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Damage",
+                        "displayCategory": "Combat",
+                        "category": "combat",
+                        "metadata": {},
+                        "value": 1169,
+                        "displayValue": "1,169",
+                        "displayType": "Number"
+                    },
+                    "matchesPlayed": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Matches Played",
+                        "displayCategory": "Game",
+                        "category": "game",
+                        "metadata": {},
+                        "value": 6,
+                        "displayValue": "6",
+                        "displayType": "Number"
+                    },
+                    "rankScore": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Rank Score",
+                        "displayCategory": "Game",
+                        "category": "game",
+                        "metadata": {},
+                        "value": 1050,
+                        "displayValue": "1,050",
+                        "displayType": "Number"
+                    },
+                    "rankScoreChange": {
+                        "rank": null,
+                        "percentile": null,
+                        "displayName": "Rank Score Change",
+                        "displayCategory": "Game",
+                        "category": "game",
+                        "metadata": {},
+                        "value": 0,
+                        "displayValue": "0",
+                        "displayType": "Number"
+                    }
+                },
+                "playlists": []
+            }
+        ]
+    }
+}

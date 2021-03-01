@@ -1,0 +1,605 @@
+{
+    "data":{
+        "platformInfo": {
+            "platformSlug": "origin",
+            "platformUserId": "Player",
+            "platformUserHandle": "Player",
+            "platformUserIdentifier": "Player",
+            "additionalParameters": null
+        },
+        "userInfo": {
+            "userId": null,
+            "isPremium": true,
+            "isVerified": false,
+            "isInfluencer": false,
+            "isPartner": false,
+            "countryCode": "US",
+            "customAvatarUrl": null,
+            "customHeroUrl": null,
+            "socialAccounts": [],
+            "pageviews": 80,
+            "isSuspicious": null
+        },
+        "metadata": {
+            "currentSeason": 2,
+            "activeLegend": "legend_5",
+            "activeLegendName": "Bloodhound",
+            "activeLegendStats": ["Damage", "Matches Played", "Kills"]
+        },
+        "segments": [{
+            "type": "overview",
+            "attributes": {},
+            "metadata": {
+                "name": "Lifetime"
+            },
+            "expiryDate": "2021-03-01T15:28:22.7247196+00:00",
+            "stats": {
+                "level": {
+                    "rank": null,
+                    "percentile": 29.0,
+                    "displayName": "Level",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 33.0,
+                    "displayValue": "33",
+                    "displayType": "Unspecified"
+                },
+                "kills": {
+                    "rank": null,
+                    "percentile": 29.0,
+                    "displayName": "Kills",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 38.0,
+                    "displayValue": "38",
+                    "displayType": "Unspecified"
+                },
+                "killsPerMatch": {
+                    "rank": null,
+                    "percentile": 1.0,
+                    "displayName": "Kills Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.16,
+                    "displayValue": "0.16",
+                    "displayType": "Unspecified"
+                },
+                "damagePerMatch": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 70.52,
+                    "displayValue": "70.52",
+                    "displayType": "Unspecified"
+                },
+                "damage": {
+                    "rank": null,
+                    "percentile": 8.0,
+                    "displayName": "Damage",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 17349.0,
+                    "displayValue": "17,349",
+                    "displayType": "Unspecified"
+                },
+                "matchesPlayed": {
+                    "rank": null,
+                    "percentile": 62.0,
+                    "displayName": "Matches Played",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 246.0,
+                    "displayValue": "246",
+                    "displayType": "Unspecified"
+                },
+                "rankScore": {
+                    "rank": null,
+                    "percentile": null,
+                    "displayName": "Rank Score",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {
+                        "iconUrl": "https://trackercdn.com/cdn/apex.tracker.gg/ranks/bronze4.png",
+                        "rankName": "Bronze 4"
+                    },
+                    "value": 210.0,
+                    "displayValue": "210",
+                    "displayType": "Unspecified"
+                },
+                "season7Wins": {
+                    "rank": null,
+                    "percentile": null,
+                    "displayName": "Season 7 Wins",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.0,
+                    "displayValue": "0",
+                    "displayType": "Unspecified"
+                },
+                "season7Kills": {
+                    "rank": null,
+                    "percentile": 5.0,
+                    "displayName": "Season 7 Kills",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 7.0,
+                    "displayValue": "7",
+                    "displayType": "Unspecified"
+                }
+            }
+        }, {
+            "type": "legend",
+            "attributes": {
+                "id": "legend_5"
+            },
+            "metadata": {
+                "name": "Bloodhound",
+                "imageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tile.png",
+                "tallImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-tall.png",
+                "bgImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bloodhound-concept-bg-small.jpg",
+                "isActive": true
+            },
+            "expiryDate": "2021-03-01T15:28:22.7247196+00:00",
+            "stats": {
+                "kills": {
+                    "rank": null,
+                    "percentile": 36.0,
+                    "displayName": "Kills",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 32.0,
+                    "displayValue": "32",
+                    "displayType": "Unspecified"
+                },
+                "killsPerMatch": {
+                    "rank": null,
+                    "percentile": 1.0,
+                    "displayName": "Kills Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.15,
+                    "displayValue": "0.15",
+                    "displayType": "Unspecified"
+                },
+                "damagePerMatch": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 69.36,
+                    "displayValue": "69.36",
+                    "displayType": "Unspecified"
+                },
+                "damage": {
+                    "rank": null,
+                    "percentile": 9.0,
+                    "displayName": "Damage",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 14705.0,
+                    "displayValue": "14,705",
+                    "displayType": "Unspecified"
+                },
+                "matchesPlayed": {
+                    "rank": null,
+                    "percentile": 63.0,
+                    "displayName": "Matches Played",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 212.0,
+                    "displayValue": "212",
+                    "displayType": "Unspecified"
+                },
+                "season7Wins": {
+                    "rank": null,
+                    "percentile": null,
+                    "displayName": "Season 7 Wins",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.0,
+                    "displayValue": "0",
+                    "displayType": "Unspecified"
+                },
+                "season7Kills": {
+                    "rank": null,
+                    "percentile": 6.0,
+                    "displayName": "Season 7 Kills",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 6.0,
+                    "displayValue": "6",
+                    "displayType": "Unspecified"
+                }
+            }
+        }, {
+            "type": "legend",
+            "attributes": {
+                "id": "legend_1"
+            },
+            "metadata": {
+                "name": "Wraith",
+                "imageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/wraith-tile.png",
+                "tallImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/wraith-tall.png",
+                "bgImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/wraith-concept-bg-small.jpg",
+                "isActive": false
+            },
+            "expiryDate": "2021-03-01T15:28:22.7247196+00:00",
+            "stats": {
+                "damagePerMatch": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 50.43,
+                    "displayValue": "50.43",
+                    "displayType": "Unspecified"
+                },
+                "damage": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 353.0,
+                    "displayValue": "353",
+                    "displayType": "Unspecified"
+                },
+                "matchesPlayed": {
+                    "rank": null,
+                    "percentile": 1.0,
+                    "displayName": "Matches Played",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 7.0,
+                    "displayValue": "7",
+                    "displayType": "Unspecified"
+                }
+            }
+        }, {
+            "type": "legend",
+            "attributes": {
+                "id": "legend_7"
+            },
+            "metadata": {
+                "name": "Lifeline",
+                "imageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/lifeline-tile.png",
+                "tallImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/lifeline-tall.png",
+                "bgImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/lifeline-concept-bg-small.jpg",
+                "isActive": false
+            },
+            "expiryDate": "2021-03-01T15:28:22.7247196+00:00",
+            "stats": {
+                "kills": {
+                    "rank": null,
+                    "percentile": 14.0,
+                    "displayName": "Kills",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 3.0,
+                    "displayValue": "3",
+                    "displayType": "Unspecified"
+                },
+                "killsPerMatch": {
+                    "rank": null,
+                    "percentile": 25.0,
+                    "displayName": "Kills Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.75,
+                    "displayValue": "0.75",
+                    "displayType": "Unspecified"
+                },
+                "damagePerMatch": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 79.75,
+                    "displayValue": "79.75",
+                    "displayType": "Unspecified"
+                },
+                "damage": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 319.0,
+                    "displayValue": "319",
+                    "displayType": "Unspecified"
+                },
+                "matchesPlayed": {
+                    "rank": null,
+                    "percentile": 1.0,
+                    "displayName": "Matches Played",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 4.0,
+                    "displayValue": "4",
+                    "displayType": "Unspecified"
+                }
+            }
+        }, {
+            "type": "legend",
+            "attributes": {
+                "id": "legend_8"
+            },
+            "metadata": {
+                "name": "Pathfinder",
+                "imageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/pathfinder-tile.png",
+                "tallImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/pathfinder-tall.png",
+                "bgImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/pathfinder-concept-bg-small.jpg",
+                "isActive": false
+            },
+            "expiryDate": "2021-03-01T15:28:22.7247196+00:00",
+            "stats": {
+                "kills": {
+                    "rank": null,
+                    "percentile": null,
+                    "displayName": "Kills",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.0,
+                    "displayValue": "0",
+                    "displayType": "Unspecified"
+                }
+            }
+        }, {
+            "type": "legend",
+            "attributes": {
+                "id": "legend_2"
+            },
+            "metadata": {
+                "name": "Bangalore",
+                "imageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bangalore-tile.png",
+                "tallImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bangalore-tall.png",
+                "bgImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/bangalore-concept-bg-small.jpg",
+                "isActive": false
+            },
+            "expiryDate": "2021-03-01T15:28:22.7247196+00:00",
+            "stats": {
+                "kills": {
+                    "rank": null,
+                    "percentile": null,
+                    "displayName": "Kills",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.0,
+                    "displayValue": "0",
+                    "displayType": "Unspecified"
+                },
+                "damagePerMatch": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 50.0,
+                    "displayValue": "50.00",
+                    "displayType": "Unspecified"
+                },
+                "damage": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 200.0,
+                    "displayValue": "200",
+                    "displayType": "Unspecified"
+                },
+                "matchesPlayed": {
+                    "rank": null,
+                    "percentile": 1.0,
+                    "displayName": "Matches Played",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 4.0,
+                    "displayValue": "4",
+                    "displayType": "Unspecified"
+                }
+            }
+        }, {
+            "type": "legend",
+            "attributes": {
+                "id": "legend_4"
+            },
+            "metadata": {
+                "name": "Mirage",
+                "imageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/mirage-tile.png",
+                "tallImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/mirage-tall.png",
+                "bgImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/mirage-concept-bg-small.jpg",
+                "isActive": false
+            },
+            "expiryDate": "2021-03-01T15:28:22.7247196+00:00",
+            "stats": {
+                "kills": {
+                    "rank": null,
+                    "percentile": null,
+                    "displayName": "Kills",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.0,
+                    "displayValue": "0",
+                    "displayType": "Unspecified"
+                },
+                "killsPerMatch": {
+                    "rank": null,
+                    "percentile": null,
+                    "displayName": "Kills Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.0,
+                    "displayValue": "0.00",
+                    "displayType": "Unspecified"
+                },
+                "damagePerMatch": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 12.75,
+                    "displayValue": "12.75",
+                    "displayType": "Unspecified"
+                },
+                "damage": {
+                    "rank": null,
+                    "percentile": 0.0,
+                    "displayName": "Damage",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 51.0,
+                    "displayValue": "51",
+                    "displayType": "Unspecified"
+                },
+                "matchesPlayed": {
+                    "rank": null,
+                    "percentile": 1.0,
+                    "displayName": "Matches Played",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 4.0,
+                    "displayValue": "4",
+                    "displayType": "Unspecified"
+                }
+            }
+        }, {
+            "type": "legend",
+            "attributes": {
+                "id": "legend_6"
+            },
+            "metadata": {
+                "name": "Gibraltar",
+                "imageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-tile.png",
+                "tallImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-tall.png",
+                "bgImageUrl": "https://trackercdn.com/cdn/apex.tracker.gg/legends/gibraltar-concept-bg-small.jpg",
+                "isActive": false
+            },
+            "expiryDate": "2021-03-01T15:28:22.7247196+00:00",
+            "stats": {
+                "kills": {
+                    "rank": null,
+                    "percentile": 15.0,
+                    "displayName": "Kills",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 3.0,
+                    "displayValue": "3",
+                    "displayType": "Unspecified"
+                },
+                "killsPerMatch": {
+                    "rank": null,
+                    "percentile": 3.0,
+                    "displayName": "Kills Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 0.2,
+                    "displayValue": "0.20",
+                    "displayType": "Unspecified"
+                },
+                "damagePerMatch": {
+                    "rank": null,
+                    "percentile": 2.0,
+                    "displayName": "Damage Per Match",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 114.73,
+                    "displayValue": "114.73",
+                    "displayType": "Unspecified"
+                },
+                "damage": {
+                    "rank": null,
+                    "percentile": 2.0,
+                    "displayName": "Damage",
+                    "displayCategory": "Combat",
+                    "category": null,
+                    "metadata": {},
+                    "value": 1721.0,
+                    "displayValue": "1,721",
+                    "displayType": "Unspecified"
+                },
+                "matchesPlayed": {
+                    "rank": null,
+                    "percentile": 11.0,
+                    "displayName": "Matches Played",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 15.0,
+                    "displayValue": "15",
+                    "displayType": "Unspecified"
+                },
+                "gunShieldDamageBlocked": {
+                    "rank": null,
+                    "percentile": 2.0,
+                    "displayName": "Gun Shield: Damage Blocked",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 344.0,
+                    "displayValue": "344",
+                    "displayType": "Unspecified"
+                },
+                "season7Kills": {
+                    "rank": null,
+                    "percentile": 9.0,
+                    "displayName": "Season 7 Kills",
+                    "displayCategory": "Game",
+                    "category": null,
+                    "metadata": {},
+                    "value": 1.0,
+                    "displayValue": "1",
+                    "displayType": "Unspecified"
+                }
+            }
+        }],
+        "availableSegments": [{
+            "type": "legend",
+            "attributes": {},
+            "metadata": {}
+        }],
+        "expiryDate": "2021-03-01T15:28:22.7247196+00:00"
+    }
+}
